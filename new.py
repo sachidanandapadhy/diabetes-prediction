@@ -12,7 +12,7 @@ st.write("---")
 
 #Pregnancies	Glucose	BloodPressure	SkinThickness	Insulin	BMI	DiabetesPedigreeFunction	Age
 
-model=pickle.load(open('D:/data/diabetes.pkl','rb'))
+model=pickle.load(open('diabetes.pkl','rb'))
 
 
 def prediction(input):
